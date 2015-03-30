@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="431dp"
+        android:layout_weight="0.8" >
+    </ListView>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:gravity="bottom"
+        android:layout_weight="0.2"
+        android:background="@drawable/back"
+        android:hint="escrever aqui o sms a enviar" />
+
+</LinearLayout>
